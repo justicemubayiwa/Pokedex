@@ -1,6 +1,6 @@
 import React, {Component} from  'react';
 import './App.css';
-import {PokeList} from './components'
+import {PokeList, DetailView} from './components'
 
 class App extends Component {
   constructor(){
@@ -11,6 +11,7 @@ class App extends Component {
     return(
       <div className="App">
         <PokeList />
+        <DetailView />
 
       </div>
     )
