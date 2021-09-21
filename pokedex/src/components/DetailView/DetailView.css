@@ -33,3 +33,7 @@
 .data-name {
   margin: 0 0 5px;
 }
+
+.data-char {
+  font-size: 10px;
+}
