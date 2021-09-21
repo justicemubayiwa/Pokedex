@@ -15,12 +15,13 @@ class App extends Component {
         sprite: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
       }
     }
+    this.handleOnClick = this.handleOnClick.bind(this)
   }
   render(){
     return(
       <div className="App">
-        <PokeList />
-        <DetailView />
+        <PokeList handleOnClick={this.handleOnClick} />
+        <DetailView pokemon={this.state.pokemon} />
 
       </div>
     )
