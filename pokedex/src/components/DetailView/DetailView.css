@@ -29,3 +29,7 @@
   box-shadow: inset 7px 11px 13px 1px rgba(0,0,0,0.28);
   color: #fff ;
 }
+
+.data-name {
+  margin: 0 0 5px;
+}
