@@ -7,10 +7,10 @@ To better understand how an application can make requests to a RESTful API
 
 ## Functional Requirements
 - As a user, I want to view a list of Pokemon.
-As a user, I want to be able to select a Pokemon from a list and view information about it, such as its name, height, weight, picture, its types as well as its ability names
-When I click the picture of the Pokemon, I should be able to toggle between its regular sprite and its shiny sprite.
-Note: Only the front sprite is required
-As a user, I can filter the list of Pokemon
+- As a user, I want to be able to select a Pokemon from a list and view information about it, such as its name, height, weight, picture, its types as well as its ability names
+- When I click the picture of the Pokemon, I should be able to toggle between its regular sprite and its shiny sprite.
+  - Note: Only the front sprite is required
+- As a user, I can filter the list of Pokemon
 
 ## Non Functional Requirements
 The application should implement some form of caching
