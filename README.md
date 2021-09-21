@@ -13,8 +13,8 @@ To better understand how an application can make requests to a RESTful API
 - As a user, I can filter the list of Pokemon
 
 ## Non Functional Requirements
-The application should implement some form of caching
-  “My internet speeds are slow and my data is limited. When I use the app, I would like the app to optimize the number of network requests”
+- The application should implement some form of caching
+-  “My internet speeds are slow and my data is limited. When I use the app, I would like the app to optimize the number of network requests”
 The application should be requesting all pokemon data, i.e. there shouldn’t be any hard coded Pokemon information in the application
 When I close the application and start it back up, the app should remember which Pokemon I last viewed
 
