@@ -1,6 +1,7 @@
 import React, {Component} from  'react';
 import './App.css';
 import {PokeList, DetailView, Pokemon} from './components'
+import Logo from './images/Pokemon-logo.png'
 
 
 class App extends Component {
@@ -31,12 +32,16 @@ class App extends Component {
 
   render(){
     return(
-      <div className="App">
-        <PokeList handleOnClick={this.handleOnClick} />
-        <DetailView pokemon={this.state.pokemon} />
-        
+      <>
+        <img className='Logo' alt="Pokemon logo" src={Logo}/>
+        <div className="App">
+          <PokeList handleOnClick={this.handleOnClick} />
+          <DetailView pokemon={this.state.pokemon} />
+          
 
-      </div>
+        </div>
+      </>
+      
     )
   }
 }
